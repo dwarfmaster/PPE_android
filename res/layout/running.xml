@@ -10,16 +10,17 @@
         android:text="ABITBOL"
         />
     <Button
+        android:id="@+id/runToggle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Connect"
-        android:onClick="launch_connect"
+        android:text="Stop"
+        android:onClick="run_toggle"
         />
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Quit"
-        android:onClick="main_quit"
+        android:onClick="run_quit"
         />
 </LinearLayout>
 

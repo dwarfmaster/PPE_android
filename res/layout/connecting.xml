@@ -9,17 +9,11 @@
         android:layout_height="wrap_content"
         android:text="ABITBOL"
         />
-    <Button
+    <TextView
+        android:id="@+id/connectingText"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Connect"
-        android:onClick="launch_connect"
-        />
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Quit"
-        android:onClick="main_quit"
+        android:text="connecting ..."
         />
 </LinearLayout>
 
